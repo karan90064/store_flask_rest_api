@@ -1,0 +1,11 @@
+1 using heroku, Dyno
+
+- instead of using postman we can use uWSGI app or library as a serving layer for our flask app
+
+- heroku - contains many dynos - many dyno means many users cna be handled at a time
+
+- all the dynos share same db
+
+- heroku enables SSL for secure comm btwn you(client ) and the server(heroku)
+
+-
